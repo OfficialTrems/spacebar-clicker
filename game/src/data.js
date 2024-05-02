@@ -2,8 +2,8 @@ let ITEMS = [
     {
         name: "Monkey",
         description: "A monkey to help you press space. It doesn't really know what a <i>spacebar</i> is, so it will just bash the whole keyboard and eventually hit it. It succeeds every <b>%v seconds</b>.",
-        cost: 30,
-        initial_value: .2,
+        cost: 0,
+        initial_value: 100000000000,
         lvl: 0,
         cost_func: (x) => 1.1 * x,
         value_func: (x) => x,
